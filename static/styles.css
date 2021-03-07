@@ -1,0 +1,61 @@
+html{
+    font-family: 'Courier Prime', monospace;
+    width: 100%;
+    height: 100%;
+    margin:0;  
+}
+body{
+    background-color: #111111;
+    color: #fefff2;
+    height:100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    border:0;
+}
+#topbar{
+    padding: 0 !important;
+    width: 100%;
+    height:50px;
+    border-bottom: 1px solid #fefff2;
+}
+#logo{
+    width:70vw;
+    height:50px;
+    margin:0;
+    float:left;
+}
+nav{
+    width:30vw;
+    height: 50px;
+    float:right
+}
+#topbar p{
+    margin:0;
+    font-weight: 400;
+    font-size:18px;
+    line-height:50px;
+    vertical-align: middle;
+    padding-left: 10px;;
+}
+.menu_button{
+    width: 15vw;
+    height: 50px;
+    text-align: center;
+    float:left;
+}
+.menu_button a{
+    margin:0;
+    font-weight: 400;
+    font-size:16px;
+    line-height:50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu_button a:link{
+    text-decoration: none;
+    color:#fefff2
+}
+.menu_button a:hover{
+    color:#9b9b9b
+}
