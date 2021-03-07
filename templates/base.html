@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <lin rel="shortcut icon" href="{{url_for('static', filename='favicon.ico'}}
 </HEAD>
 
 <BODY>
-    <div id="topbar">
+    <div id=" topbar">
         <div id="logo">
             <p>kac_wissuwa_industries™</p>
         </div>
@@ -20,12 +21,12 @@
             <div class="menu_button"><a href="{{ url_for('projects')}}">projects</a></div>
             <div class="menu_button"><a href="{{ url_for('contact')}}">contact</a></div>
         </nav>
-    </div>
+        </div>
 
-    <main>
-        {% block content%}
-        {% endblock %}
-    </main>
-</BODY>
+        <main>
+            {% block content%}
+            {% endblock %}
+        </main>
+        </BODY>
 
 </HTML>
