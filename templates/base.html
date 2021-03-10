@@ -5,6 +5,7 @@
 <HEAD>
     <title> {{ page_title }}</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -14,6 +15,8 @@
 <BODY>
     <div id="topbar">
         <div id="logo">
+            <img src="{{url_for('static', filename='sitelogo.png')}}">
+
             <p>kac_wissuwa_industries™</p>
         </div>
         <nav>
@@ -21,6 +24,8 @@
             <div class="menu_button"><a href="{{ url_for('contact')}}">contact</a></div>
         </nav>
     </div>
+    <div style="clear:both;"></div>
+
 
     <main>
         {% block content%}

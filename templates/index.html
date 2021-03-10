@@ -1,17 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="slideshow-container">
+<!--<div> class="slideshow-container">
     <div class="mySlides fade">
-        <img src="static/img/img1.jpg" style="width:100%">
+        <img src="{{url_for('static', filename='img1.jpg')}}" style="width: 100%;">
     </div>
 
     <div class="mySlides fade">
-        <img src="static/img/img2.jpg" style="width:100%">
+        <img src="{{url_for('static', filename='img2.jpg')}}" style="width: 100%;">
     </div>
 
     <div class="mySlides fade">
-        <img src="static/img/img3.jpg" style="width:100%">
+        <img src="{{url_for('static', filename='img3.jpg')}}" style="width: 100%;">
     </div>
 
 
@@ -31,5 +31,5 @@
             setTimeout(showSlides, 4000);
         }
     </script>
-</div>
+</div>-->
 {% endblock %}
